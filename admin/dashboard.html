@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لوحة التحكم | الشركة المتحدة</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/png" href="../assets/images/brand/favicon.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/admin.css">
+</head>
+<body class="admin-body">
+
+<button class="admin-mobile-toggle" id="mobile-toggle" aria-label="فتح القائمة">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
+
+<div class="admin-shell">
+
+  <!-- ============ الشريط الجانبي ============ -->
+  <aside class="admin-sidebar" id="sidebar">
+    <div class="brand-mini">
+      <img src="../assets/images/brand/logo-icon.png" alt="شعار الشركة المتحدة" class="brand-mini-logo">
+      <div>
+        <strong>لوحة التحكم</strong>
+        <span id="sidebar-username">—</span>
+      </div>
+    </div>
+
+    <nav>
+      <div class="admin-nav-link active" data-view="overview">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+        نظرة عامة
+      </div>
+      <div class="admin-nav-link" data-view="products">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 8 12 3 3 8l9 5 9-5Z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>
+        المنتجات
+      </div>
+      <div class="admin-nav-link" data-view="categories">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="8" height="8" rx="1.5"/></svg>
+        التصنيفات
+      </div>
+      <div class="admin-nav-link" data-view="io">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+        تصدير / استيراد
+      </div>
+      <div class="admin-nav-link" data-view="settings">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"/></svg>
+        الإعدادات
+      </div>
+    </nav>
+
+    <div class="admin-sidebar-footer">
+      <a href="../index.html" target="_blank" style="display:block;text-align:center;font-size:0.82rem;color:var(--color-text-muted);margin-bottom:10px;">↗ عرض الموقع</a>
+      <button id="logout-btn">تسجيل الخروج</button>
+    </div>
+  </aside>
+
+  <!-- ============ المحتوى الرئيسي ============ -->
+  <main class="admin-main">
+
+    <!-- ---------- نظرة عامة ---------- -->
+    <section class="admin-view active" id="view-overview">
+      <div class="admin-topbar">
+        <div>
+          <h2>نظرة عامة</h2>
+          <p>ملخص سريع لمحتوى الموقع الحالي</p>
+        </div>
+      </div>
+      <div class="admin-stats">
+        <div class="admin-stat-card"><div class="num" id="stat-products">0</div><div class="label">إجمالي المنتجات</div></div>
+        <div class="admin-stat-card"><div class="num" id="stat-categories">0</div><div class="label">التصنيفات الرئيسية</div></div>
+        <div class="admin-stat-card"><div class="num" id="stat-subcats">0</div><div class="label">التصنيفات الفرعية</div></div>
+        <div class="admin-stat-card"><div class="num" id="stat-source">—</div><div class="label">مصدر البيانات الحالي</div></div>
+      </div>
+      <div class="admin-panel">
+        <h3>ملاحظة مهمة حول طريقة عمل اللوحة</h3>
+        <p class="desc">هذا الموقع موقع ثابت (Static) بدون سيرفر أو قاعدة بيانات، لذلك تعمل لوحة التحكم بالطريقة التالية:</p>
+        <ul style="margin:0;padding-inline-start:20px;line-height:2;font-size:0.9rem;color:var(--color-text);">
+          <li>أي تعديل (منتج، تصنيف، صورة) يُحفظ في متصفحك الحالي فوراً، وتراه على الموقع مباشرة في نفس المتصفح.</li>
+          <li>هذا التعديل <strong>لا يظهر تلقائياً للزوار الآخرين</strong> لأن الموقع مستضاف كملفات ثابتة (مثل GitHub Pages).</li>
+          <li>لجعل التعديلات ظاهرة للجميع بشكل دائم: اذهب لتبويب <strong>"تصدير / استيراد"</strong>، نزّل ملفات JSON المحدَّثة، ثم استبدل بها الملفات في مجلد <code>data/</code> داخل مستودع الموقع وارفعها (Commit + Push).</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ---------- المنتجات ---------- -->
+    <section class="admin-view" id="view-products">
+      <div class="admin-topbar">
+        <div>
+          <h2>المنتجات</h2>
+          <p>إضافة وتعديل وحذف قطع الغيار المعروضة في الموقع</p>
+        </div>
+        <button class="admin-btn" style="width:auto;padding:10px 20px;" id="add-product-btn">+ إضافة منتج</button>
+      </div>
+
+      <div class="admin-toolbar">
+        <input type="text" id="product-search" placeholder="ابحث بالاسم أو الكود أو الماركة...">
+        <select id="product-filter-category"><option value="">كل التصنيفات</option></select>
+      </div>
+
+      <div class="admin-panel" style="padding:0;">
+        <div class="admin-table-wrap">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>صورة</th><th>الكود</th><th>الاسم</th><th>التصنيف</th><th>الماركة</th><th>إجراءات</th>
+              </tr>
+            </thead>
+            <tbody id="products-tbody"></tbody>
+          </table>
+        </div>
+        <div class="empty-state" id="products-empty" style="display:none;">لا توجد منتجات مطابقة.</div>
+      </div>
+    </section>
+
+    <!-- ---------- التصنيفات ---------- -->
+    <section class="admin-view" id="view-categories">
+      <div class="admin-topbar">
+        <div>
+          <h2>التصنيفات</h2>
+          <p>إدارة التصنيفات الرئيسية والتصنيفات الفرعية</p>
+        </div>
+        <button class="admin-btn" style="width:auto;padding:10px 20px;" id="add-category-btn">+ إضافة تصنيف</button>
+      </div>
+      <div id="categories-list"></div>
+    </section>
+
+    <!-- ---------- تصدير / استيراد ---------- -->
+    <section class="admin-view" id="view-io">
+      <div class="admin-topbar">
+        <div>
+          <h2>تصدير / استيراد البيانات</h2>
+          <p>لحفظ التعديلات بشكل دائم على الموقع المنشور</p>
+        </div>
+      </div>
+
+      <div class="admin-panel">
+        <h3>1) تصدير الملفات المحدَّثة</h3>
+        <p class="desc">نزّل ملفي JSON التاليين، ثم استبدل بهما نفس الملفين داخل مجلد <code>data/</code> في مشروع الموقع، وارفعهما (Commit + Push) حتى تظهر التغييرات لكل الزوار.</p>
+        <div class="admin-form-actions" style="margin-top:0;">
+          <button class="admin-btn secondary" style="width:auto;" id="export-products-btn">تنزيل products.json</button>
+          <button class="admin-btn secondary" style="width:auto;" id="export-categories-btn">تنزيل categories.json</button>
+        </div>
+      </div>
+
+      <div class="admin-panel">
+        <h3>2) استيراد ملفات JSON</h3>
+        <p class="desc">إذا كان لديك ملف products.json أو categories.json جاهز (مثلاً تم تعديله بأداة Excel)، ارفعه هنا ليحل محل البيانات الحالية في اللوحة والموقع (لهذا المتصفح).</p>
+        <div class="admin-form-grid">
+          <div class="admin-form-group">
+            <label>ملف products.json</label>
+            <input type="file" id="import-products-file" accept="application/json">
+          </div>
+          <div class="admin-form-group">
+            <label>ملف categories.json</label>
+            <input type="file" id="import-categories-file" accept="application/json">
+          </div>
+        </div>
+      </div>
+
+      <div class="admin-panel">
+        <h3>3) إعادة الضبط</h3>
+        <p class="desc">حذف كل التعديلات المحفوظة في هذا المتصفح والعودة لبيانات الموقع الأصلية (data/products.json و data/categories.json).</p>
+        <button class="admin-btn danger" style="width:auto;" id="reset-overrides-btn">تفريغ التعديلات المحلية</button>
+      </div>
+    </section>
+
+    <!-- ---------- الإعدادات ---------- -->
+    <section class="admin-view" id="view-settings">
+      <div class="admin-topbar">
+        <div>
+          <h2>الإعدادات</h2>
+          <p>تغيير بيانات دخول لوحة التحكم (اسم المستخدم وكلمة المرور)</p>
+        </div>
+      </div>
+
+      <div class="admin-panel" style="max-width:480px;">
+        <div class="admin-success" id="settings-success">تم تحديث بيانات الدخول بنجاح.</div>
+        <div class="admin-error" id="settings-error">حدث خطأ، تحقق من البيانات المدخلة.</div>
+
+        <form id="settings-form">
+          <div class="admin-form-group" style="margin-bottom:16px;">
+            <label>كلمة المرور الحالية</label>
+            <input type="password" id="current-password" required>
+          </div>
+          <div class="admin-form-group" style="margin-bottom:16px;">
+            <label>اسم المستخدم الجديد</label>
+            <input type="text" id="new-username" required>
+          </div>
+          <div class="admin-form-group" style="margin-bottom:16px;">
+            <label>كلمة المرور الجديدة</label>
+            <input type="password" id="new-password" required minlength="3">
+          </div>
+          <div class="admin-form-group" style="margin-bottom:16px;">
+            <label>تأكيد كلمة المرور الجديدة</label>
+            <input type="password" id="confirm-password" required minlength="3">
+          </div>
+          <button type="submit" class="admin-btn">حفظ التغييرات</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<!-- ============ نافذة إضافة/تعديل منتج ============ -->
+<div class="admin-modal-backdrop" id="product-modal-backdrop">
+  <div class="admin-modal">
+    <div class="admin-modal-header">
+      <h3 id="product-modal-title">إضافة منتج جديد</h3>
+      <button class="admin-modal-close" data-close-modal="product-modal-backdrop">×</button>
+    </div>
+    <form id="product-form">
+      <input type="hidden" id="p-original-code">
+      <div class="admin-form-grid">
+        <div class="admin-form-group full">
+          <label>صورة المنتج</label>
+          <div class="image-upload-box" id="image-upload-box">
+            <img id="image-preview" src="../assets/images/products/placeholder.svg" alt="معاينة الصورة">
+            <div class="hint">اضغط لاختيار صورة من جهازك (JPG / PNG)</div>
+          </div>
+          <input type="file" id="p-image-file" accept="image/*" style="display:none;">
+          <input type="hidden" id="p-image-data">
+        </div>
+        <div class="admin-form-group">
+          <label>كود المنتج *</label>
+          <input type="text" id="p-code" required>
+        </div>
+        <div class="admin-form-group">
+          <label>اسم المنتج *</label>
+          <input type="text" id="p-name" required>
+        </div>
+        <div class="admin-form-group">
+          <label>التصنيف الرئيسي *</label>
+          <select id="p-category" required></select>
+        </div>
+        <div class="admin-form-group">
+          <label>التصنيف الفرعي</label>
+          <select id="p-subcategory"></select>
+        </div>
+        <div class="admin-form-group">
+          <label>الماركة</label>
+          <input type="text" id="p-brand">
+        </div>
+        <div class="admin-form-group">
+          <label>التوافق / الموديل</label>
+          <input type="text" id="p-model">
+        </div>
+        <div class="admin-form-group full">
+          <label>الوصف</label>
+          <textarea id="p-description"></textarea>
+        </div>
+      </div>
+      <div class="admin-form-actions">
+        <button type="submit" class="admin-btn">حفظ المنتج</button>
+        <button type="button" class="admin-btn secondary" data-close-modal="product-modal-backdrop">إلغاء</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- ============ نافذة إضافة/تعديل تصنيف ============ -->
+<div class="admin-modal-backdrop" id="category-modal-backdrop">
+  <div class="admin-modal">
+    <div class="admin-modal-header">
+      <h3 id="category-modal-title">إضافة تصنيف جديد</h3>
+      <button class="admin-modal-close" data-close-modal="category-modal-backdrop">×</button>
+    </div>
+    <form id="category-form">
+      <input type="hidden" id="c-original-id">
+      <div class="admin-form-grid">
+        <div class="admin-form-group">
+          <label>اسم التصنيف *</label>
+          <input type="text" id="c-name" required>
+        </div>
+        <div class="admin-form-group">
+          <label>المعرّف (id) *</label>
+          <input type="text" id="c-id" required placeholder="مثال: ac-parts">
+        </div>
+        <div class="admin-form-group full">
+          <label>الوصف</label>
+          <input type="text" id="c-description">
+        </div>
+        <div class="admin-form-group full">
+          <label>التصنيفات الفرعية</label>
+          <div style="display:flex;gap:8px;">
+            <input type="text" id="c-subcat-input" placeholder="اكتب تصنيف فرعي واضغط إضافة">
+            <button type="button" class="admin-btn secondary" style="width:auto;padding:8px 16px;" id="c-add-subcat">إضافة</button>
+          </div>
+          <div class="subcat-tags" id="c-subcats-list"></div>
+        </div>
+      </div>
+      <div class="admin-form-actions">
+        <button type="submit" class="admin-btn">حفظ التصنيف</button>
+        <button type="button" class="admin-btn secondary" data-close-modal="category-modal-backdrop">إلغاء</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="admin-toast" id="admin-toast"></div>
+
+<script src="../assets/js/admin-store.js"></script>
+<script src="../assets/js/admin.js"></script>
+</body>
+</html>
