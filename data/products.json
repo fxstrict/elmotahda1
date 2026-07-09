@@ -1,0 +1,312 @@
+[
+  {
+    "code": "AC-COMP-001",
+    "name": "كباس تكييف 1.5 حصان روتاري",
+    "model": "متوافق مع: Carrier / General / Fresh",
+    "brand": "Toshiba",
+    "category": "ac-parts",
+    "subcategory": "كباسات (كمبروسورات)",
+    "image": "assets/images/products/AC-COMP-001.svg",
+    "description": "كباس روتاري أصلي بضمان الوكيل، مناسب للتكييف الاسبليت 1.5 حصان."
+  },
+  {
+    "code": "AC-COMP-002",
+    "name": "كباس تكييف 2.25 حصان",
+    "model": "متوافق مع: LG / Samsung",
+    "brand": "LG",
+    "category": "ac-parts",
+    "subcategory": "كباسات (كمبروسورات)",
+    "image": "assets/images/products/AC-COMP-002.svg",
+    "description": "كباس أصلي لتكييفات 2.25 حصان بارد فقط وبارد ساخن."
+  },
+  {
+    "code": "AC-FAN-010",
+    "name": "موتور مروحة وحدة خارجية",
+    "model": "متوافق مع: Fresh / Tornado",
+    "brand": "Fresh",
+    "category": "ac-parts",
+    "subcategory": "مراوح ومواتير",
+    "image": "assets/images/products/AC-FAN-010.svg",
+    "description": "موتور مروحة الوحدة الخارجية بسرعتين."
+  },
+  {
+    "code": "AC-BRD-021",
+    "name": "بورد تحكم يونيت داخلي",
+    "model": "متوافق مع: Carrier سبليت",
+    "brand": "Carrier",
+    "category": "ac-parts",
+    "subcategory": "بوردات إلكترونية",
+    "image": "assets/images/products/AC-BRD-021.svg",
+    "description": "بورد إلكتروني للوحدة الداخلية يتحكم في المروحة والسنسورات."
+  },
+  {
+    "code": "AC-REM-005",
+    "name": "ريموت كنترول تكييف عام",
+    "model": "متوافق مع: أغلب الماركات",
+    "brand": "عام (Universal)",
+    "category": "ac-parts",
+    "subcategory": "ريموت كنترول",
+    "image": "assets/images/products/AC-REM-005.svg",
+    "description": "ريموت يونيفرسال يدعم أغلب موديلات التكييفات المنزلية."
+  },
+  {
+    "code": "AC-FLT-003",
+    "name": "فلتر هواء تكييف قابل للغسيل",
+    "model": "متوافق مع: جميع الاسبليت",
+    "brand": "عام (Universal)",
+    "category": "ac-parts",
+    "subcategory": "فلاتر هواء",
+    "image": "assets/images/products/AC-FLT-003.svg",
+    "description": "فلتر هواء قابل للغسيل وإعادة الاستخدام."
+  },
+  {
+    "code": "AC-COND-014",
+    "name": "كوندنسر وحدة خارجية 1.5 حصان",
+    "model": "متوافق مع: General / Fresh",
+    "brand": "General",
+    "category": "ac-parts",
+    "subcategory": "كوندنسر وإيفابوريتور",
+    "image": "assets/images/products/AC-COND-014.svg",
+    "description": "كوندنسر نحاس بالكامل لضمان كفاءة تبريد أعلى."
+  },
+  {
+    "code": "AC-GAS-099",
+    "name": "غاز فريون R410A (اسطوانة)",
+    "model": "لكل موديلات الانفرتر",
+    "brand": "عام (Universal)",
+    "category": "ac-parts",
+    "subcategory": "غاز فريون ومستلزماته",
+    "image": "assets/images/products/AC-GAS-099.svg",
+    "description": "اسطوانة غاز فريون أصلية لأجهزة التكييف الحديثة."
+  },
+  {
+    "code": "AC-THM-007",
+    "name": "ثرموستات وحساس حرارة تكييف",
+    "model": "متوافق مع: Samsung / LG",
+    "brand": "Samsung",
+    "category": "ac-parts",
+    "subcategory": "ثرموستات وحساسات",
+    "image": "assets/images/products/AC-THM-007.svg",
+    "description": "حساس حرارة دقيق للتحكم في درجة التبريد."
+  },
+  {
+    "code": "AC-VLV-016",
+    "name": "فالف فتيس 4 مسارات",
+    "model": "متوافق مع: بارد ساخن جميع الماركات",
+    "brand": "عام (Universal)",
+    "category": "ac-parts",
+    "subcategory": "فتيس وصمامات",
+    "image": "assets/images/products/AC-VLV-016.svg",
+    "description": "فالف تحويل لأجهزة التكييف بارد ساخن."
+  },
+  {
+    "code": "AC-WIR-002",
+    "name": "طقم أسلاك توصيل تكييف 3×1.5",
+    "model": "عام لكل الوحدات",
+    "brand": "عام (Universal)",
+    "category": "ac-parts",
+    "subcategory": "أسلاك وكابلات توصيل",
+    "image": "assets/images/products/AC-WIR-002.svg",
+    "description": "كابل توصيل بين الوحدة الداخلية والخارجية."
+  },
+  {
+    "code": "RF-COMP-030",
+    "name": "كباس ثلاجة نصف حصان",
+    "model": "متوافق مع: Toshiba / Kiriazi",
+    "brand": "Toshiba",
+    "category": "refrigeration-parts",
+    "subcategory": "كباسات ثلاجات وفريزرات",
+    "image": "assets/images/products/RF-COMP-030.svg",
+    "description": "كباس ثلاجة منزلية بكفاءة طاقة عالية."
+  },
+  {
+    "code": "RF-COMP-031",
+    "name": "كباس فريزر افقي 1 حصان",
+    "model": "متوافق مع: Fresh / Beko",
+    "brand": "Fresh",
+    "category": "refrigeration-parts",
+    "subcategory": "كباسات ثلاجات وفريزرات",
+    "image": "assets/images/products/RF-COMP-031.svg",
+    "description": "كباس مخصص للفريزرات الأفقية التجارية."
+  },
+  {
+    "code": "RF-THM-012",
+    "name": "ثرموستات ثلاجة ميكانيكي",
+    "model": "متوافق مع: أغلب الثلاجات المنزلية",
+    "brand": "عام (Universal)",
+    "category": "refrigeration-parts",
+    "subcategory": "ثرموستات",
+    "image": "assets/images/products/RF-THM-012.svg",
+    "description": "ثرموستات ميكانيكي سهل التركيب."
+  },
+  {
+    "code": "RF-MTR-020",
+    "name": "موتور فريزر (فان مروحة داخلية)",
+    "model": "متوافق مع: LG / Samsung No-Frost",
+    "brand": "LG",
+    "category": "refrigeration-parts",
+    "subcategory": "مواتير فريزر",
+    "image": "assets/images/products/RF-MTR-020.svg",
+    "description": "موتور مروحة داخلية لأنظمة No-Frost."
+  },
+  {
+    "code": "RF-FLT-008",
+    "name": "فلتر مجفف ثلاجة (دراير)",
+    "model": "عام لكل الماركات",
+    "brand": "عام (Universal)",
+    "category": "refrigeration-parts",
+    "subcategory": "فلاتر ومجففات",
+    "image": "assets/images/products/RF-FLT-008.svg",
+    "description": "فلتر مجفف لحماية دائرة التبريد من الرطوبة."
+  },
+  {
+    "code": "RF-DOR-004",
+    "name": "جوان باب ثلاجة مطاطي",
+    "model": "متوافق مع: Kiriazi موديلات حديثة",
+    "brand": "Kiriazi",
+    "category": "refrigeration-parts",
+    "subcategory": "أبواب وأكسسوارات",
+    "image": "assets/images/products/RF-DOR-004.svg",
+    "description": "جوان مطاطي لباب الثلاجة يمنع تسرب البرودة."
+  },
+  {
+    "code": "RF-SHF-009",
+    "name": "رف زجاج ثلاجة داخلي",
+    "model": "مقاسات متعددة",
+    "brand": "عام (Universal)",
+    "category": "refrigeration-parts",
+    "subcategory": "أرفف وقطع داخلية",
+    "image": "assets/images/products/RF-SHF-009.svg",
+    "description": "رف زجاجي مقوى بديل للرفوف التالفة."
+  },
+  {
+    "code": "RF-LMP-006",
+    "name": "لمبة ثلاجة LED داخلية",
+    "model": "عام لكل الثلاجات",
+    "brand": "عام (Universal)",
+    "category": "refrigeration-parts",
+    "subcategory": "لمبات ومفاتيح",
+    "image": "assets/images/products/RF-LMP-006.svg",
+    "description": "لمبة LED موفرة للطاقة وطويلة العمر."
+  },
+  {
+    "code": "WM-MTR-011",
+    "name": "موتور غسالة أوتوماتيك",
+    "model": "متوافق مع: Samsung / LG",
+    "brand": "Samsung",
+    "category": "washing-machine-parts",
+    "subcategory": "موتور الغسالة",
+    "image": "assets/images/products/WM-MTR-011.svg",
+    "description": "موتور غسالة أوتوماتيك أصلي بضمان."
+  },
+  {
+    "code": "WM-PRG-017",
+    "name": "بروجرامر غسالة نصف أوتوماتيك",
+    "model": "متوافق مع: موديلات توين تب",
+    "brand": "عام (Universal)",
+    "category": "washing-machine-parts",
+    "subcategory": "بروجرامر / بورد تحكم",
+    "image": "assets/images/products/WM-PRG-017.svg",
+    "description": "بروجرامر ميكانيكي للغسالات نصف الأوتوماتيك."
+  },
+  {
+    "code": "WM-SEN-013",
+    "name": "حساس مستوى مياه (بريسوستات)",
+    "model": "عام لكل الغسالات الأوتوماتيك",
+    "brand": "عام (Universal)",
+    "category": "washing-machine-parts",
+    "subcategory": "حساسات مستوى المياه",
+    "image": "assets/images/products/WM-SEN-013.svg",
+    "description": "حساس ضغط لقياس مستوى المياه داخل الحوض."
+  },
+  {
+    "code": "WM-PUMP-014",
+    "name": "طرمبة تصريف مياه غسالة",
+    "model": "متوافق مع: أغلب الغسالات الأوتوماتيك",
+    "brand": "عام (Universal)",
+    "category": "washing-machine-parts",
+    "subcategory": "طرمبة تصريف المياه",
+    "image": "assets/images/products/WM-PUMP-014.svg",
+    "description": "طرمبة تصريف بمروحة معدنية لعمر أطول."
+  },
+  {
+    "code": "WM-BLT-018",
+    "name": "سير موتور غسالة",
+    "model": "مقاسات متعددة حسب الموديل",
+    "brand": "عام (Universal)",
+    "category": "washing-machine-parts",
+    "subcategory": "حزام (سير) الموتور",
+    "image": "assets/images/products/WM-BLT-018.svg",
+    "description": "سير مطاطي متين لنقل حركة الموتور للحوض."
+  },
+  {
+    "code": "WM-VLV-019",
+    "name": "صمام مياه غسالة (كهرومغناطيسي)",
+    "model": "عام لكل الغسالات الأوتوماتيك",
+    "brand": "عام (Universal)",
+    "category": "washing-machine-parts",
+    "subcategory": "صمامات مياه",
+    "image": "assets/images/products/WM-VLV-019.svg",
+    "description": "صمام تحكم في دخول المياه للغسالة."
+  },
+  {
+    "code": "WM-BRG-022",
+    "name": "طقم رولمان وسبيدو حوض الغسالة",
+    "model": "متوافق مع: LG موديلات مختارة",
+    "brand": "LG",
+    "category": "washing-machine-parts",
+    "subcategory": "رولمان وسبيدو",
+    "image": "assets/images/products/WM-BRG-022.svg",
+    "description": "طقم رولمان لتثبيت دوران حوض الغسالة."
+  },
+  {
+    "code": "WM-DOR-023",
+    "name": "قفل باب غسالة أوتوماتيك",
+    "model": "عام لكل الغسالات الأمامية التحميل",
+    "brand": "عام (Universal)",
+    "category": "washing-machine-parts",
+    "subcategory": "أبواب وأقفال",
+    "image": "assets/images/products/WM-DOR-023.svg",
+    "description": "قفل أمان لباب الغسالة الأمامي."
+  },
+  {
+    "code": "GS-TOOL-101",
+    "name": "طقم عدة فني تكييفات وتبريد",
+    "model": "طقم متكامل 8 قطع",
+    "brand": "عام (Universal)",
+    "category": "general-supplies",
+    "subcategory": "أدوات ومعدات فنية",
+    "image": "assets/images/products/GS-TOOL-101.svg",
+    "description": "طقم عدة احترافي للفنيين يشمل قواطع وموسعات مواسير."
+  },
+  {
+    "code": "GS-OIL-102",
+    "name": "زيت كباس تبريد ومكيفات",
+    "model": "عبوة 1 لتر",
+    "brand": "عام (Universal)",
+    "category": "general-supplies",
+    "subcategory": "مواد استهلاكية (غازات، زيوت، عوازل)",
+    "image": "assets/images/products/GS-OIL-102.svg",
+    "description": "زيت مخصص لتزييت الكباسات وإطالة عمرها."
+  },
+  {
+    "code": "GS-INS-103",
+    "name": "عازل مواسير تكييف (أرمافلكس)",
+    "model": "سُمك 13مم - لفة 15م",
+    "brand": "عام (Universal)",
+    "category": "general-supplies",
+    "subcategory": "مواد استهلاكية (غازات، زيوت، عوازل)",
+    "image": "assets/images/products/GS-INS-103.svg",
+    "description": "عازل حراري لمواسير الفريون يمنع تكون الشبورة."
+  },
+  {
+    "code": "GS-WIR-104",
+    "name": "كابل كهرباء عام مقاس 3×2.5",
+    "model": "لفة 100 متر",
+    "brand": "عام (Universal)",
+    "category": "general-supplies",
+    "subcategory": "أسلاك وتوصيلات كهربائية عامة",
+    "image": "assets/images/products/GS-WIR-104.svg",
+    "description": "كابل نحاس خالص مناسب لتوصيلات الأجهزة الكهربائية."
+  }
+]
