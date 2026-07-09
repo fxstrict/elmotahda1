@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#F4F6F8"/>
+  <g transform="translate(200,150)" fill="none" stroke="#0B5ED7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.55">
+    <circle r="46" stroke-dasharray="10 10"/>
+    <circle r="18"/>
+    <line x1="0" y1="-70" x2="0" y2="-58"/>
+    <line x1="0" y1="70" x2="0" y2="58"/>
+    <line x1="-70" y1="0" x2="-58" y2="0"/>
+    <line x1="70" y1="0" x2="58" y2="0"/>
+    <line x1="-49" y1="-49" x2="-41" y2="-41"/>
+    <line x1="49" y1="49" x2="41" y2="41"/>
+    <line x1="-49" y1="49" x2="-41" y2="41"/>
+    <line x1="49" y1="-49" x2="41" y2="-41"/>
+  </g>
+  <text x="200" y="255" font-family="Cairo, Tajawal, sans-serif" font-size="15" fill="#5B6472" text-anchor="middle">
+    الصورة الحقيقية للقطعة غير متوفرة حالياً
+  </text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#F4F6F8"/>
+  <rect x="1" y="1" width="398" height="298" fill="none" stroke="#E3E7EC" stroke-width="2"/>
+  <g transform="translate(200,118)" fill="none" stroke="#0B5ED7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+<circle cx="-45" cy="10" r="26"/>
+<circle cx="45" cy="-10" r="26"/>
+<path d="M -45 -16 Q 0 -46 45 -36" opacity="0.8"/>
+<path d="M -45 36 Q 0 16 45 16" opacity="0.8"/>
+</g>
+  <text x="200" y="252" font-family="Cairo, Tajawal, sans-serif" font-size="15" font-weight="600" fill="#5B6472" text-anchor="middle">سير موتور غسالة</text>
+  <rect x="150" y="268" width="100" height="1" fill="none"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#F4F6F8"/>
+  <rect x="1" y="1" width="398" height="298" fill="none" stroke="#E3E7EC" stroke-width="2"/>
+  <g transform="translate(200,118)" fill="none" stroke="#0B5ED7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+<ellipse cx="0" cy="10" rx="58" ry="46"/>
+<path d="M -58 30 Q 0 55 58 30" />
+<line x1="-30" y1="-40" x2="-42" y2="-62"/>
+<line x1="30" y1="-40" x2="42" y2="-62"/>
+<circle cx="-42" cy="-64" r="6"/>
+<circle cx="42" cy="-64" r="6"/>
+<line x1="-58" y1="10" x2="-78" y2="10"/>
+<line x1="58" y1="10" x2="78" y2="10"/>
+</g>
+  <text x="200" y="252" font-family="Cairo, Tajawal, sans-serif" font-size="15" font-weight="600" fill="#5B6472" text-anchor="middle">كباس تكييف 2.25 حصان</text>
+  <rect x="150" y="268" width="100" height="1" fill="none"/>
+</svg>

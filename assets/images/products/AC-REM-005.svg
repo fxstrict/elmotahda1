@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#F4F6F8"/>
+  <rect x="1" y="1" width="398" height="298" fill="none" stroke="#E3E7EC" stroke-width="2"/>
+  <g transform="translate(200,118)" fill="none" stroke="#0B5ED7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+<rect x="-26" y="-65" width="52" height="130" rx="16"/>
+<circle cx="0" cy="-40" r="7"/>
+<rect x="-14" y="-20" width="28" height="14" rx="4"/>
+<circle cx="-12" cy="10" r="7"/>
+<circle cx="12" cy="10" r="7"/>
+<circle cx="-12" cy="32" r="7"/>
+<circle cx="12" cy="32" r="7"/>
+</g>
+  <text x="200" y="252" font-family="Cairo, Tajawal, sans-serif" font-size="15" font-weight="600" fill="#5B6472" text-anchor="middle">ريموت كنترول تكييف عام</text>
+  <rect x="150" y="268" width="100" height="1" fill="none"/>
+</svg>
